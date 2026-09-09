@@ -15,7 +15,6 @@
   --accent-rgb: 167, 181, 255;
 }
 
-:root,
 :root[data-theme='dark'] {
   color-scheme: dark;
   --bg: #0a0a0c;
@@ -34,6 +33,7 @@
   --noise-opacity: .16;
 }
 
+:root,
 :root[data-theme='light'] {
   color-scheme: light;
   --bg: #f5f4f0;

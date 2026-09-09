@@ -2,6 +2,8 @@
 
 A premium, product-focused portfolio for **Ventsislav Dimov**, a fullstack developer who enjoys turning complex ideas into clear, fast and thoughtful digital experiences.
 
+**Live site:** [ventsislavdimov.vercel.app](https://ventsislavdimov.vercel.app/)
+
 Designed as more than a standard developer portfolio: the site combines editorial layouts, product-style case studies and refined interactions in a responsive dark-first interface.
 
 ## Highlights

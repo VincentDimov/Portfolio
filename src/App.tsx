@@ -19,7 +19,7 @@ const sectionIds = ['work', 'about', 'experience', 'stack', 'contact']
 const getStoredTheme = (): 'dark' | 'light' => {
   const stored = window.localStorage.getItem('ventsislav-theme')
   if (stored === 'light' || stored === 'dark') return stored
-  return 'dark'
+  return 'light'
 }
 
 export default function App() {
