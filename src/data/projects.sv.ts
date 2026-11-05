@@ -1,0 +1,120 @@
+import type { Project } from './projects'
+
+type TranslatedProjectFields = 'summary' | 'context' | 'purpose' | 'features' | 'decisions' | 'scopeNote' | 'flow' | 'imageAlt' | 'architecture'
+
+export const projectTranslations: Record<string, Partial<Pick<Project, TranslatedProjectFields>>> = {
+  ledgerapp: {
+    summary: 'En svensk bokföringsapplikation som samlar verifikationer, underlag och ekonomiska rapporter i ett strukturerat arbetsflöde.',
+    imageAlt: 'LedgerApps publika startsida med bokföringsflödet och en tydligt märkt illustrativ översikt.',
+    flow: ['Underlag', 'Verifikationer', 'Rapporter'],
+    context: 'Projekt inom bokföringsapplikationer',
+    purpose: 'Bokföring knyter vardagens underlag till en större ekonomisk helhet. LedgerApp samlar de stegen i en webbapplikation med separat frontend, backend och relationell datamodell.',
+    features: [
+      { title: 'Verifikationsflöden', description: 'Skapa verifikationsutkast och arbeta med bokföringsflöden och tillhörande underlag.' },
+      { title: 'Rapporter och datautbyte', description: 'Ekonomiska rapporter samt import och export av SIE-filer knyter applikationen till svenska bokföringsflöden.' },
+      { title: 'Strukturerad backend', description: 'Ett NestJS-API och ett datalager med Prisma skiljer applikationens regler från gränssnittet i Next.js.' },
+    ],
+    architecture: ['Next.js-gränssnitt', 'NestJS-API', 'Prisma-modeller', 'PostgreSQL'],
+    decisions: [
+      { title: 'Strukturera ekonomiska data', description: 'En relationell modell ger verifikationer och deras rader en tydlig struktur, i stället för att behandla dem som fristående poster i gränssnittet.' },
+      { title: 'Separera applikationens lager', description: 'Applikationerna i Next.js och NestJS håller presentation, API-beteende och datalagring åtskilda.' },
+      { title: 'Testa viktiga arbetsflöden', description: 'Jest och Playwright används i repot för att testa backendbeteende och flöden i webbläsaren.' },
+    ],
+    scopeNote: 'Ett utvecklingsprojekt, utan anspråk på att vara en certifierad bokföringsprodukt. Den fullständiga officiella BAS-kontoplanen är ännu inte komplett.',
+  },
+  stayfinder: {
+    summary: 'En bokningsapplikation där gäster hittar boenden och värdar hanterar annonser, med bokningsregler som upprätthålls i databasen.',
+    imageAlt: 'StayFinders publika startsida med boendesökning, destinationssök och utvalda boenden.',
+    flow: ['Hitta boende', 'Välj datum', 'Boka'],
+    context: 'Individuellt skolprojekt · WEBB25',
+    purpose: 'Ett bokningsflöde behöver mer än en tilltalande lista med boenden. StayFinder förenar sökning, behörigheter för värdar och gäster samt tillgänglighet i ett fullstackprojekt inom utbildningen.',
+    features: [
+      { title: 'Hitta boenden', description: 'Bläddra bland annonser och ange destination och antal gäster för att hitta ett passande boende.' },
+      { title: 'Flöden för gäster och värdar', description: 'Autentisering och separata ansvarsområden för gäster och värdar stödjer bokningar och annonshantering.' },
+      { title: 'Tillförlitliga bokningsregler', description: 'Begränsningar i databasen förhindrar överlappande bokningar, så att kontrollen inte enbart är beroende av gränssnittet.' },
+    ],
+    architecture: ['Next.js-gränssnitt', 'Hono REST-API', 'Validering / behörighet', 'PostgreSQL'],
+    decisions: [
+      { title: 'Kontrollera tillgänglighet i databasen', description: 'Bokningskonflikter begränsas i datalagret, så att samtidiga förfrågningar inte är beroende av en tillgänglighetskontroll på klientsidan.' },
+      { title: 'Gör behörighet till en del av flödet', description: 'Cookiebaserad autentisering och databasens åtkomstregler kopplar användarens identitet till värdens och gästens handlingar.' },
+      { title: 'Validera inkommande data', description: 'Zod-scheman ger inkommande API-data en definierad struktur innan den når applikationslogiken.' },
+    ],
+    scopeNote: 'Byggt som ett individuellt utbildningsprojekt. Den publika versionen är en projektdemo och ingen kommersiell bokningstjänst.',
+  },
+  'mini-ats': {
+    summary: 'En rekryteringsyta för jobb och kandidater med visuell kandidatprocess, gemensamma anteckningar och kontrollerad åtkomst till CV-filer.',
+    imageAlt: 'Mini ATS publika startsida som presenterar rekryteringsytan och en tydligt märkt exempelprocess för kandidater.',
+    flow: ['Jobb', 'Kandidater', 'Kandidatprocess'],
+    context: 'Projekt för en gemensam rekryteringsyta',
+    purpose: 'Rekryteringsinformation blir svår att följa när tjänster, kandidatfiler och samtal finns på olika ställen. Mini ATS samlar dem i en gemensam arbetsyta med tydlig företags- och filåtkomst.',
+    features: [
+      { title: 'Visuell kandidatprocess', description: 'Kanban- och listvyer stödjer kandidatsteg, sökning och taggar tillsammans med hantering av lediga tjänster.' },
+      { title: 'Gemensamt sammanhang', description: 'Kandidatanteckningar, intervjuplanering och kalenderexporter håller nästa samtal nära kandidatens information.' },
+      { title: 'Kontrollerad åtkomst', description: 'Supabase-autentisering, radbaserad säkerhet i PostgreSQL och privat CV-lagring stödjer separata företagsytor.' },
+    ],
+    architecture: ['Next.js-arbetsyta', 'Serverrutter', 'Supabase Auth / RLS', 'Postgres / lagring'],
+    decisions: [
+      { title: 'Håll filerna privata', description: 'CV-dokument lagras privat och åtkomsten hanteras genom applikationen i stället för via publika filadresser.' },
+      { title: 'Avgränsa data till arbetsytan', description: 'Företagsgränser och databasens radbaserade säkerhet ingår i modellen för dataåtkomst.' },
+      { title: 'Erbjud flera vyer', description: 'Process- och listvyer gör det möjligt att navigera samma rekryteringsdata på olika sätt.' },
+    ],
+    scopeNote: 'Konton till arbetsytan tillhandahålls av en administratör. Koden innehåller valfria AI-sammanfattningar på serversidan. Tillgängligheten beror på konfiguration och förutsätts inte i den publika demon.',
+  },
+  anastasiia: {
+    summary: 'En konsultationswebbplats med tjänstepresentation och en tydlig väg till att skicka en förfrågan.',
+    flow: ['Tjänster', 'Information', 'Förfrågan'],
+    context: 'Webbplatsprojekt',
+    purpose: 'En fokuserad tjänstepresentation för en konsultationswebbplats.',
+    features: [], architecture: [], decisions: [],
+  },
+  dspwebb: {
+    summary: 'En tvåspråkig företagswebbplats med egna sidor för digitala tjänster, redovisning och takarbeten.',
+    flow: ['Tjänster', 'Verksamhetsbehov', 'Kontakt'],
+    context: 'Företagswebbplats',
+    purpose: 'En webbplats som knyter företagstjänster till en tydlig väg för förfrågningar.',
+    features: [], architecture: [], decisions: [],
+  },
+  bokforingsmatchen: {
+    summary: 'En tvåspråkig jämförelsedemo för redovisningsbyråer med filter, offertguide och vägledande kalkylatorer.',
+    flow: ['Jämför', 'Beräkna', 'Offertguide'],
+    context: 'Jämförelseprototyp',
+    purpose: 'Utforska ett flöde för att jämföra tjänster.',
+    features: [], architecture: [], decisions: [],
+    scopeNote: 'Prototyp med fiktiva byråer. Offertförfrågningar lagras lokalt i webbläsaren och skickas inte till byråerna.',
+  },
+  nordblad: {
+    summary: 'En nättidning med headless CMS där artikelsidor, kategorier och författarprofiler drivs av Storyblok.',
+    flow: ['Storyblok', 'Artiklar', 'Läsare'],
+    context: 'CMS-projekt inom utbildningen',
+    purpose: 'En nättidningsupplevelse som drivs av strukturerat innehåll från ett CMS.',
+    features: [], architecture: [], decisions: [],
+  },
+  jobbportalen: {
+    summary: 'En CMS-driven jobbportal med detaljsidor för jobb, fritextsökning och avdelningsfilter.',
+    flow: ['CMS-innehåll', 'Sökning', 'Jobbdetaljer'],
+    context: 'CMS-projekt',
+    purpose: 'Ett sökbart gränssnitt för jobbannonser där innehållet hanteras i Storyblok.',
+    features: [], architecture: [], decisions: [],
+  },
+  paskquiz: {
+    summary: 'Ett påskquiz med kategorier, tidsbegränsade frågor och interaktioner i webbläsaren.',
+    flow: ['Välj kategori', 'Svara', 'Resultat'],
+    context: 'Interaktivt webbprojekt',
+    purpose: 'Ett säsongsquiz byggt med webbens grundläggande tekniker.',
+    features: [], architecture: [], decisions: [],
+  },
+  jultomtesquiz: {
+    summary: 'Ett julquiz som kombinerar kategorival, nedräkning och frågehantering i JavaScript.',
+    flow: ['Välj kategori', 'Svara', 'Resultat'],
+    context: 'Interaktivt webbprojekt',
+    purpose: 'Ett säsongsquiz byggt med webbens grundläggande tekniker.',
+    features: [], architecture: [], decisions: [],
+  },
+  pokemon: {
+    summary: 'Ett React-gränssnitt för att utforska de ursprungliga 151 Pokémon, med detaljer hämtade från PokéAPI.',
+    flow: ['PokéAPI', 'Bläddra', 'Detaljer'],
+    context: 'Projekt inom API-integration',
+    purpose: 'Utforska externa data i ett komponentbaserat gränssnitt i webbläsaren.',
+    features: [], architecture: [], decisions: [],
+  },
+}

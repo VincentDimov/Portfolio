@@ -1,8 +1,10 @@
 import { useEffect, useRef } from 'react'
 import { motion, useReducedMotion } from 'framer-motion'
-import { Activity, Check, Code2, Database, Sparkles } from 'lucide-react'
+import { Activity, Code2, Database, Workflow } from 'lucide-react'
+import { useLanguage } from '../../lib/locale'
 
 export const HeroSystemVisual = () => {
+  const { copy } = useLanguage()
   const visualRef = useRef<HTMLDivElement>(null)
   const frameRef = useRef<number | null>(null)
   const reduceMotion = useReducedMotion()
@@ -12,7 +14,7 @@ export const HeroSystemVisual = () => {
   }, [])
 
   const onPointerMove = (event: React.PointerEvent<HTMLDivElement>) => {
-    if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches || !visualRef.current) return
+    if (reduceMotion || !window.matchMedia('(hover: hover) and (pointer: fine)').matches || !visualRef.current) return
     const bounds = visualRef.current.getBoundingClientRect()
     const x = ((event.clientX - bounds.left) / bounds.width) * 100
     const y = ((event.clientY - bounds.top) / bounds.height) * 100
@@ -36,7 +38,7 @@ export const HeroSystemVisual = () => {
       <div className="hero-system__glow" />
       <div className="system-topbar">
         <div className="system-topbar__dots"><i /><i /><i /></div>
-        <span>product.system / overview</span>
+        <span>{copy.system.header}</span>
         <Activity size={13} />
       </div>
       <div className="system-canvas">
@@ -44,33 +46,32 @@ export const HeroSystemVisual = () => {
         <div className="system-canvas__line line-two" />
         <div className="system-node system-node--source">
           <Code2 size={16} />
-          <span>Interface</span>
+          <span>{copy.system.interface}</span>
           <small>React / TS</small>
         </div>
         <div className="system-node system-node--core">
-          <Sparkles size={16} />
-          <span>Product logic</span>
-          <small>Calm by design</small>
+          <Workflow size={16} />
+          <span>{copy.system.logic}</span>
+          <small>{copy.system.validation}</small>
         </div>
         <div className="system-node system-node--data">
           <Database size={16} />
-          <span>Data layer</span>
-          <small>Fast &amp; reliable</small>
+          <span>{copy.system.data}</span>
+          <small>{copy.system.models}</small>
         </div>
         <div className="system-pulse" />
         <div className="system-status">
-          <span><i><Check size={10} /></i> Systems nominal</span>
-          <strong>99.99%</strong>
+          <span>{copy.system.flow}</span>
         </div>
         <div className="system-latency">
-          <span>response time</span>
-          <strong>42<span>ms</span></strong>
-          <div><i /><i /><i /><i /><i /><i /></div>
+          <span>{copy.system.focus}</span>
+          <strong>{copy.system.fullstack}</strong>
+          <small>{copy.system.usability}</small>
         </div>
       </div>
       <div className="system-bottom">
-        <span>SHIPPING WITH INTENT</span>
-        <span>01 — 03</span>
+        <span>{copy.system.bottom}</span>
+        <span>UI → API → DATA</span>
       </div>
     </motion.div>
   )

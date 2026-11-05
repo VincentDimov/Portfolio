@@ -1,17 +1,18 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
-import { Github, Linkedin, Menu, Moon, Sun, X } from 'lucide-react'
+import { Github, Globe2, Linkedin, Menu, Moon, Sun, X } from 'lucide-react'
 import { ButtonLink } from '../ui/Button'
 import { cn } from '../../lib/utils'
 import { socials } from '../../data/socials'
 import { profile } from '../../data/profile'
+import { useLanguage } from '../../lib/locale'
 
 const navigation = [
   { label: 'Work', id: 'work' },
   { label: 'About', id: 'about' },
-  { label: 'Experience', id: 'experience' },
-  { label: 'Stack', id: 'stack' },
-]
+  { label: 'Activity & Tech', id: 'stack' },
+  { label: 'Contact', id: 'contact' },
+] as const
 
 type NavbarProps = {
   activeSection: string
@@ -21,6 +22,7 @@ type NavbarProps = {
 }
 
 export const Navbar = ({ activeSection, theme, onToggleTheme, isProjectPage = false }: NavbarProps) => {
+  const { copy, language, toggleLanguage } = useLanguage()
   const [isOpen, setIsOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
   const menuButtonRef = useRef<HTMLButtonElement>(null)
@@ -41,11 +43,11 @@ export const Navbar = ({ activeSection, theme, onToggleTheme, isProjectPage = fa
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') closeMenu()
+      if (isOpen && event.key === 'Escape') closeMenu()
     }
     window.addEventListener('keydown', onKeyDown)
     return () => window.removeEventListener('keydown', onKeyDown)
-  }, [closeMenu])
+  }, [closeMenu, isOpen])
 
   useEffect(() => {
     document.body.classList.toggle('menu-open', isOpen)
@@ -76,13 +78,13 @@ export const Navbar = ({ activeSection, theme, onToggleTheme, isProjectPage = fa
 
   return (
     <header className={cn('site-header', isScrolled && 'site-header--scrolled')}>
-      <nav className="navbar container" aria-label="Primary navigation">
-        <a className="brand" href="/" aria-label={`${profile.name} — home`}>
-          <span className="brand__mark">NL</span>
+      <nav className="navbar container" aria-label={copy.menu.title}>
+        <a className="brand" href="/" aria-label={`${profile.name} — ${copy.home}`}>
+          <span className="brand__mark">{profile.initials}</span>
           <span className="brand__name">{profile.name}</span>
         </a>
 
-        <div className="nav-links" aria-label="Section navigation">
+        <div className="nav-links">
           {navigation.map((item) => (
             <a
               className={cn('nav-link', activeSection === item.id && 'nav-link--active')}
@@ -90,7 +92,7 @@ export const Navbar = ({ activeSection, theme, onToggleTheme, isProjectPage = fa
               key={item.id}
               aria-current={!isProjectPage && activeSection === item.id ? 'location' : undefined}
             >
-              {item.label}
+              {copy.nav[item.id]}
             </a>
           ))}
         </div>
@@ -102,15 +104,18 @@ export const Navbar = ({ activeSection, theme, onToggleTheme, isProjectPage = fa
           <a className="icon-button nav-social" href={socials.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
             <Linkedin size={16} aria-hidden="true" />
           </a>
-          <button className="icon-button" onClick={onToggleTheme} aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`}>
+          <button className="icon-button language-toggle" onClick={toggleLanguage} aria-label={language === 'en' ? 'Byt till svenska' : 'Switch to English'} title={language === 'en' ? 'Byt till svenska' : 'Switch to English'}>
+            <Globe2 size={17} aria-hidden="true" /><span aria-hidden="true">{language.toUpperCase()}</span>
+          </button>
+          <button className="icon-button" onClick={onToggleTheme} aria-label={copy.theme[theme === 'dark' ? 'light' : 'dark']}>
             {theme === 'dark' ? <Sun size={16} aria-hidden="true" /> : <Moon size={16} aria-hidden="true" />}
           </button>
-          <ButtonLink className="nav-contact" href={isProjectPage ? '/#contact' : '#contact'} variant="secondary">Let’s talk</ButtonLink>
+          <ButtonLink className="nav-contact" href={isProjectPage ? '/#contact' : '#contact'} variant="secondary">{copy.talk}</ButtonLink>
           <button
             className="icon-button menu-button"
             ref={menuButtonRef}
             onClick={() => setIsOpen((value) => !value)}
-            aria-label={isOpen ? 'Close menu' : 'Open menu'}
+            aria-label={isOpen ? copy.menu.close : copy.menu.open}
             aria-expanded={isOpen}
             aria-controls="mobile-menu"
           >
@@ -127,13 +132,14 @@ export const Navbar = ({ activeSection, theme, onToggleTheme, isProjectPage = fa
             ref={menuRef}
             role="dialog"
             aria-modal="true"
-            aria-label="Navigation menu"
+            aria-label={copy.menu.title}
             initial={{ opacity: 0, y: reduceMotion ? 0 : -12 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: reduceMotion ? 0 : -8 }}
             transition={{ duration: reduceMotion ? 0.01 : 0.2 }}
           >
             <div className="container mobile-menu__inner">
+              <button className="mobile-menu__close icon-button" onClick={closeMenu} aria-label={copy.menu.closeNavigation}><X size={20} aria-hidden="true" /></button>
               <div className="mobile-menu__links">
                 {navigation.map((item, index) => (
                   <motion.a
@@ -145,7 +151,7 @@ export const Navbar = ({ activeSection, theme, onToggleTheme, isProjectPage = fa
                     transition={{ delay: reduceMotion ? 0 : 0.04 * index }}
                   >
                     <span>0{index + 1}</span>
-                    {item.label}
+                    {copy.nav[item.id]}
                   </motion.a>
                 ))}
               </div>

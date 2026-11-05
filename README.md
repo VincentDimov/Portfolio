@@ -1,113 +1,112 @@
 # Ventsislav Dimov — Portfolio
 
-A premium, product-focused portfolio for **Ventsislav Dimov**, a fullstack developer who enjoys turning complex ideas into clear, fast and thoughtful digital experiences.
+A personal fullstack developer portfolio connecting real projects, their technical foundations and the thinking behind them.
 
-**Live site:** [ventsislavdimov.vercel.app](https://ventsislavdimov.vercel.app/)
+**Website:** [ventsislavdimov.vercel.app](https://ventsislavdimov.vercel.app/)
 
-Designed as more than a standard developer portfolio: the site combines editorial layouts, product-style case studies and refined interactions in a responsive dark-first interface.
+**GitHub:** [VincentDimov](https://github.com/VincentDimov)
 
-## Highlights
+**Contact:** [vincent@dspab.se](mailto:vincent@dspab.se)
 
-- Responsive, accessible single-page portfolio
-- Four data-driven project case studies with dedicated routes
-- Dark and light theme with persisted user preference
-- Polished Framer Motion reveals and hover interactions
-- CSS-built product mockups — no stock photography required
-- Responsive mobile navigation with keyboard focus handling
-- Contact form UI with client-side validation, loading and success states
-- SEO metadata, Open Graph tags, JSON-LD and semantic landmarks
-- Reduced-motion support and a small Konami-code easter egg
+## The experience
 
-## Tech stack
+- Three featured projects: **LedgerApp**, **StayFinder** and **Mini ATS**, each with a dedicated case study.
+- Eight additional projects with category filters and an expandable overview.
+- Real GitHub contributions for the latest twelve months, with keyboard and touch support.
+- Technology cards connected to the projects where the technologies are used.
+- A concise About / Approach section with a business perspective and current education.
+- Light theme by default, a persistent dark-theme option and reduced-motion support.
+- Complete English and Swedish content, switched with a globe button in the header and remembered between visits.
+- A server-backed contact form using Nodemailer and one.com, plus direct email and LinkedIn links. Success is shown only after SMTP accepts the fixed destination.
 
-- [React](https://react.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Vite](https://vite.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Lucide](https://lucide.dev/)
+Built with **React, TypeScript, Vite, Tailwind CSS, Framer Motion and Lucide**. The GitHub endpoint uses Node.js built-ins and no API token. Nodemailer handles server-side email.
 
-## Getting started
+## Run locally
 
-### Prerequisites
-
-- Node.js 20 or later
-- npm 10 or later
-
-### Install and run
+Use Node.js 22 or later and npm.
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
-Vite will print a local URL, usually `http://localhost:5173`.
+Open the URL printed by Vite, normally `http://localhost:5173`. A local Vite middleware runs the same GitHub activity handler as the Vercel Function, so the calendar works during development and preview.
 
-### Create a production build
-
-```bash
-npm run build
-```
-
-Preview the generated production build locally:
+For email, configure the same one.com mailbox used by DSPWEBB: `SMTP_USER` and the server secret `SMTP_PASS`. See [.env.example](.env.example) and [contact configuration](docs/contact.md). No credentials are included. Without them the form reports that sending is unavailable and preserves the message.
 
 ```bash
-npm run preview
+npm test          # Contribution parser, period, upstream error and cache tests
+npm run build    # TypeScript and production Vite build
+npm run preview  # Preview the production frontend with the local GitHub endpoint
 ```
 
-## Project structure
+## Structure
 
 ```text
+api/                         Vercel Functions for GitHub activity and contact email
+scripts/                     Shared server handlers and local Vite middleware
 src/
-├── components/
-│   ├── layout/       # Navigation and footer
-│   ├── projects/     # Case study cards and CSS product previews
-│   ├── sections/     # Portfolio page sections
-│   ├── ui/           # Reusable interface primitives
-│   └── visuals/      # Hero system visual
-├── data/             # Editable portfolio content
-├── hooks/            # Scroll tracking and easter egg logic
-├── pages/            # Project case-study view
-├── App.tsx           # Application composition and theme state
-└── index.css          # Design tokens, layouts and responsive styles
+  components/
+    layout/                  Navigation and footer
+    projects/                Project cards, screenshots and concept diagrams
+    sections/                Hero, Work, About, Activity & Tech, More Projects, Contact
+    ui/                      Reusable interface components
+    visuals/                 Decorative UI → API → data diagram
+  data/                      Typed profile, project, skill and social content
+  hooks/                     Section tracking and keyboard easter egg
+  lib/                       Calendar validation and shared utilities
+  pages/                     Selected project case studies
+  index.css                  Design tokens, themes and responsive layout
+public/images/projects/      Optimised WebP screenshots of public landing pages
+tests/                       Node tests for the GitHub integration
+docs/                        Verification evidence, data-source notes and screenshots
 ```
 
-## Updating the content
+## Content and evidence
 
-Portfolio content is intentionally separated from UI code.
-
-| What to update | File |
+| Content | Source |
 | --- | --- |
-| Name and professional title | `src/data/profile.ts` |
-| Email, GitHub and LinkedIn | `src/data/socials.ts` |
-| Featured projects and case-study details | `src/data/projects.ts` |
-| Work history | `src/data/experience.ts` |
-| Technical skills and principles | `src/data/skills.ts` |
+| Name, title and background | `src/data/profile.ts` |
+| Email and social links | `src/data/socials.ts` |
+| All eleven projects and case studies | `src/data/projects.ts` |
+| Technology areas | `src/data/skills.ts` |
+| English and Swedish interface text | `src/data/copy.ts` |
+| Swedish projects and skills | `src/data/projects.sv.ts`, `src/data/skills.sv.ts` |
+| Page metadata and Person schema | `index.html` |
 
-The project cards currently use bespoke CSS product mockups. Replace those with real project imagery later by updating `ProjectVisual.tsx` or introducing image assets while retaining descriptive alternative text.
+Project descriptions were checked against repository READMEs, direct dependencies and relevant source on **5 November 2026**. The evidence files record reviewed commits and public demo checks:
 
-## Routes
+- [Primary project evidence](docs/project-evidence-primary.md)
+- [Additional project evidence](docs/project-evidence-more.md)
 
-| Route | Description |
-| --- | --- |
-| `/` | Main portfolio experience |
-| `/projects/signal` | Signal case study |
-| `/projects/atlas` | Atlas case study |
-| `/projects/northstar` | Northstar case study |
-| `/projects/relay` | Relay case study |
+Private repositories are labelled as private. Small exercises remain small exercises; no customer counts, commercial outcomes, employment history or experience years are inferred from repository metadata. The selected screenshots show public landing pages, not authenticated workspaces. Other projects use labelled concept diagrams.
 
-## Deployment
+## GitHub data
 
-The project builds to the `dist/` directory and can be deployed to any static host, including Vercel, Netlify, Cloudflare Pages or GitHub Pages.
+`/api/github-activity` reads GitHub’s official public contribution calendar for `VincentDimov`, combines calendar years and validates each date in the rolling twelve-month period. The displayed total is the sum of those daily counts. Contributions include more than commits.
 
-For hosts serving an SPA, configure a fallback so direct visits to `/projects/*` return `index.html`.
+Successful responses are cached by Vercel’s CDN for six hours with one day of stale-while-revalidate. Errors are not cached. The UI shows the exact period and source update time, and may retain an explicitly labelled last-successful calendar when a refresh fails. No credentials are required or exposed.
 
-## Contact
+The public calendar HTML is not a versioned API. If its markup changes, the endpoint reports an error instead of inventing a zero-filled calendar. See [GitHub data and update strategy](docs/github-activity.md).
 
-- GitHub: [VincentDimov](https://github.com/VincentDimov?tab=repositories)
-- LinkedIn: [Ventsislav Dimov](https://www.linkedin.com/in/ventsislav-dimov-587490227/)
-- Email: [vincent@dspab.se](mailto:vincent@dspab.se)
+## Routing and hosting
 
----
+The frontend builds into `dist/`. Vercel runs the root `api/` functions and uses `vercel.json` to serve selected project routes through the SPA:
 
-Built with React, TypeScript and a considered amount of coffee.
+- `/projects/ledgerapp`
+- `/projects/stayfinder`
+- `/projects/mini-ats`
+
+A static-only host needs equivalent API endpoints for live contributions and email. Without the GitHub endpoint, the site displays an error and direct-profile fallback. Direct project URLs also need an SPA fallback. No new service account or subscription is required; email reuses the existing one.com mailbox credentials.
+
+## Verification
+
+Browser verification covers 375, 768 and 1440-pixel layouts in both languages and themes, project filters, direct case-study URLs, calendar keyboard navigation, error/retry states, mobile navigation and contact validation/loading/error/success handling. Findings and screenshots are stored in `docs/`. Unit tests use an injected SMTP transport and do not send email. Real mailbox delivery requires configuring `SMTP_PASS` in the Portfolio project.
+
+The repository changes are prepared for review. No deployment or external form submission is part of the verification workflow.
+
+## Connect
+
+- [GitHub](https://github.com/VincentDimov)
+- [LinkedIn](https://www.linkedin.com/in/ventsislav-dimov-587490227/)
+- [Email](mailto:vincent@dspab.se)

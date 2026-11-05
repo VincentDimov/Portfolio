@@ -4,3 +4,7 @@ dist/
 *.tsbuildinfo
 
 .vercel
+.qa/
+.env*
+!.env.example
+docs/screenshots/research/

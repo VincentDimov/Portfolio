@@ -1,0 +1,252 @@
+{
+  "date": "2026-11-05",
+  "layouts": [
+    {
+      "language": "en",
+      "theme": "light",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyWidth": 1440
+    },
+    {
+      "language": "en",
+      "theme": "dark",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyWidth": 1440
+    },
+    {
+      "language": "sv",
+      "theme": "light",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyWidth": 1440
+    },
+    {
+      "language": "sv",
+      "theme": "dark",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyWidth": 1440
+    },
+    {
+      "language": "en",
+      "theme": "light",
+      "width": 768,
+      "scrollWidth": 768,
+      "bodyWidth": 768
+    },
+    {
+      "language": "en",
+      "theme": "dark",
+      "width": 768,
+      "scrollWidth": 768,
+      "bodyWidth": 768
+    },
+    {
+      "language": "sv",
+      "theme": "light",
+      "width": 768,
+      "scrollWidth": 768,
+      "bodyWidth": 768
+    },
+    {
+      "language": "sv",
+      "theme": "dark",
+      "width": 768,
+      "scrollWidth": 768,
+      "bodyWidth": 768
+    },
+    {
+      "language": "en",
+      "theme": "light",
+      "width": 375,
+      "scrollWidth": 375,
+      "bodyWidth": 375
+    },
+    {
+      "language": "en",
+      "theme": "dark",
+      "width": 375,
+      "scrollWidth": 375,
+      "bodyWidth": 375
+    },
+    {
+      "language": "sv",
+      "theme": "light",
+      "width": 375,
+      "scrollWidth": 375,
+      "bodyWidth": 375
+    },
+    {
+      "language": "sv",
+      "theme": "dark",
+      "width": 375,
+      "scrollWidth": 375,
+      "bodyWidth": 375
+    }
+  ],
+  "cases": [
+    {
+      "slug": "ledgerapp",
+      "language": "en",
+      "title": "LedgerApp — Ventsislav Dimov",
+      "canonical": "https://ventsislavdimov.vercel.app/projects/ledgerapp",
+      "violations": []
+    },
+    {
+      "slug": "stayfinder",
+      "language": "en",
+      "title": "StayFinder — Ventsislav Dimov",
+      "canonical": "https://ventsislavdimov.vercel.app/projects/stayfinder",
+      "violations": []
+    },
+    {
+      "slug": "mini-ats",
+      "language": "en",
+      "title": "Mini ATS — Ventsislav Dimov",
+      "canonical": "https://ventsislavdimov.vercel.app/projects/mini-ats",
+      "violations": []
+    },
+    {
+      "slug": "ledgerapp",
+      "language": "sv",
+      "title": "LedgerApp — Ventsislav Dimov",
+      "canonical": "https://ventsislavdimov.vercel.app/projects/ledgerapp",
+      "violations": []
+    },
+    {
+      "slug": "stayfinder",
+      "language": "sv",
+      "title": "StayFinder — Ventsislav Dimov",
+      "canonical": "https://ventsislavdimov.vercel.app/projects/stayfinder",
+      "violations": []
+    },
+    {
+      "slug": "mini-ats",
+      "language": "sv",
+      "title": "Mini ATS — Ventsislav Dimov",
+      "canonical": "https://ventsislavdimov.vercel.app/projects/mini-ats",
+      "violations": []
+    }
+  ],
+  "interactions": [
+    {
+      "width": 1440,
+      "projectFilters": "passed",
+      "calendarKeyboard": "passed",
+      "datePicker": "passed",
+      "languageAndThemePersistence": "passed",
+      "mobileMenu": "n/a"
+    },
+    {
+      "width": 768,
+      "projectFilters": "passed",
+      "calendarKeyboard": "passed",
+      "datePicker": "passed",
+      "languageAndThemePersistence": "passed",
+      "mobileMenu": "n/a"
+    },
+    {
+      "width": 375,
+      "projectFilters": "passed",
+      "calendarKeyboard": "passed",
+      "datePicker": "passed",
+      "languageAndThemePersistence": "passed",
+      "mobileMenu": "passed"
+    },
+    {
+      "githubFailureAndRetry": "passed; no false zero data"
+    },
+    {
+      "realContactEndpoint": "503 NOT_CONFIGURED, text retained, no false success"
+    },
+    {
+      "contactUIAcceptedResponse": "passed with intercepted HTTP response; not a mailbox-delivery test"
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 1440,
+      "language": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "language": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "language": "sv",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "language": "sv",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "width": 768,
+      "language": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 768,
+      "language": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "width": 768,
+      "language": "sv",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 768,
+      "language": "sv",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "language": "en",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "language": "en",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "language": "sv",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "language": "sv",
+      "theme": "dark",
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "productionPreview": {
+    "port": 4173,
+    "defaultLightTheme": "passed",
+    "directCaseRoute": "passed",
+    "liveGitHubEndpoint": "passed",
+    "swedishPersistence": "passed",
+    "serverValidationUI": "passed with intercepted 400 response",
+    "unexpectedConsoleErrors": []
+  }
+}
