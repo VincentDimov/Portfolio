@@ -131,6 +131,7 @@ export const projectTranslations: Record<string, Partial<Pick<Project, Translate
     scopeNote: 'Produkter, omdömen och handelsflöden är demonstrationer. Betalningar, frakt och utbetalningar simuleras som standard; valfri Stripe-testkod innebär inte att en betalningsintegration är aktiv.',
   },
   anastasiia: {
+    imageAlt: 'Anastasiias publika friskvårdswebbplats med lugn redaktionell form och ingångar för privatpersoner och företag.',
     summary: 'En konsultationswebbplats med tjänstepresentation och en tydlig väg till att skicka en förfrågan.',
     flow: ['Tjänster', 'Information', 'Förfrågan'],
     context: 'Webbplatsprojekt',
@@ -143,6 +144,7 @@ export const projectTranslations: Record<string, Partial<Pick<Project, Translate
     architecture: [], decisions: [],
   },
   dspwebb: {
+    imageAlt: 'DSP:s publika startsida som presenterar digital utveckling, redovisning och takarbeten.',
     summary: 'En tvåspråkig företagswebbplats med egna sidor för digitala tjänster, redovisning och takarbeten.',
     flow: ['Tjänster', 'Verksamhetsbehov', 'Kontakt'],
     context: 'Företagswebbplats',
@@ -155,6 +157,7 @@ export const projectTranslations: Record<string, Partial<Pick<Project, Translate
     architecture: [], decisions: [],
   },
   bokforingsmatchen: {
+    imageAlt: 'Bokföringsmatchens publika jämförelsedemo med byråsökning och en ingång till offertguiden.',
     summary: 'En tvåspråkig jämförelsedemo för redovisningsbyråer med filter, offertguide och vägledande kalkylatorer.',
     flow: ['Jämför', 'Beräkna', 'Offertguide'],
     context: 'Jämförelseprototyp',
@@ -168,6 +171,7 @@ export const projectTranslations: Record<string, Partial<Pick<Project, Translate
     scopeNote: 'Prototyp med fiktiva byråer. Offertförfrågningar lagras lokalt i webbläsaren och skickas inte till byråerna.',
   },
   nordblad: {
+    imageAlt: 'Nordbladets publika tidningsstartsida med navigering till artiklar och kategorier.',
     summary: 'En nättidning med headless CMS där artikelsidor, kategorier och författarprofiler drivs av Storyblok.',
     flow: ['Storyblok', 'Artiklar', 'Läsare'],
     context: 'CMS-projekt inom utbildningen',
@@ -180,6 +184,7 @@ export const projectTranslations: Record<string, Partial<Pick<Project, Translate
     architecture: [], decisions: [],
   },
   jobbportalen: {
+    imageAlt: 'Jobbportalens publika sida med lediga tjänster, fritextsökning och avdelningsfilter.',
     summary: 'En CMS-driven jobbportal med detaljsidor för jobb, fritextsökning och avdelningsfilter.',
     flow: ['CMS-innehåll', 'Sökning', 'Jobbdetaljer'],
     context: 'CMS-projekt',
@@ -192,6 +197,7 @@ export const projectTranslations: Record<string, Partial<Pick<Project, Translate
     architecture: [], decisions: [],
   },
   paskquiz: {
+    imageAlt: 'Lokal förhandsvisning av Påsk Quiz med påsktema och kategorival.',
     summary: 'Ett påskquiz med kategorier, tidsbegränsade frågor och interaktioner i webbläsaren.',
     flow: ['Välj kategori', 'Svara', 'Resultat'],
     context: 'Interaktivt webbprojekt',
@@ -204,6 +210,7 @@ export const projectTranslations: Record<string, Partial<Pick<Project, Translate
     architecture: [], decisions: [],
   },
   jultomtesquiz: {
+    imageAlt: 'Lokal förhandsvisning av Jultomtes Quiz med jultema och kategorival.',
     summary: 'Ett julquiz som kombinerar kategorival, nedräkning och frågehantering i JavaScript.',
     flow: ['Välj kategori', 'Svara', 'Resultat'],
     context: 'Interaktivt webbprojekt',
@@ -216,6 +223,7 @@ export const projectTranslations: Record<string, Partial<Pick<Project, Translate
     architecture: [], decisions: [],
   },
   pokemon: {
+    imageAlt: 'Lokal förhandsvisning av Pokémon Application med Pikachu vald och bild, typ, vikt och längd hämtade från PokéAPI.',
     summary: 'Ett React-gränssnitt för att utforska de ursprungliga 151 Pokémon, med detaljer hämtade från PokéAPI.',
     flow: ['PokéAPI', 'Bläddra', 'Detaljer'],
     context: 'Projekt inom API-integration',

@@ -1,0 +1,1255 @@
+{
+  "date": "2026-11-07",
+  "story": "Every project displays a real screenshot with translated alternative text and accurate public/local captions.",
+  "layouts": [
+    {
+      "width": 1440,
+      "language": "en",
+      "theme": "light",
+      "images": [
+        {
+          "src": "/images/projects/ledgerapp.webp",
+          "alt": "LedgerApp public landing page with its bookkeeping workflow and labelled illustrative overview.",
+          "loaded": true,
+          "width": 962
+        },
+        {
+          "src": "/images/projects/stayfinder.webp",
+          "alt": "StayFinder public homepage showing accommodation discovery, a destination search and featured stays.",
+          "loaded": true,
+          "width": 522
+        },
+        {
+          "src": "/images/projects/mini-ats.webp",
+          "alt": "Mini ATS public landing page introducing the recruitment workspace and an explicitly labelled example pipeline.",
+          "loaded": true,
+          "width": 522
+        },
+        {
+          "src": "/images/projects/plot-twist.webp",
+          "alt": "Plot Twist public homepage introducing local plant exchanges and map-based discovery.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/sole-search.webp",
+          "alt": "SOLE_SEARCH public storefront featuring a sneaker drop, catalogue navigation and countdown.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/eventera.webp",
+          "alt": "EVENTERA public homepage with event search, city selection and featured experiences.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/folio.webp",
+          "alt": "FOLIO public homepage showing the portfolio-builder concept and a labelled example portfolio.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/nordmark.webp",
+          "alt": "Nordmark public demo marketplace with catalogue search, categories and a clearly labelled demo-store banner.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/anastasiia.webp",
+          "alt": "Anastasiia public wellbeing website with a calm editorial layout and paths for individuals and businesses.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/dspwebb.webp",
+          "alt": "DSP public homepage introducing digital development, accounting and roofing services.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/bokforingsmatchen.webp",
+          "alt": "Bokföringsmatchen public comparison-demo homepage with agency discovery and a quote-guide entry point.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/nordblad.webp",
+          "alt": "Nordbladet public newspaper homepage with navigation to articles and categories.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/jobbportalen.webp",
+          "alt": "Jobbportalen public vacancies page with keyword search, a department filter and job listings.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/paskquiz.webp",
+          "alt": "Local preview of Påsk Quiz showing its Easter-themed category selector.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/jultomtesquiz.webp",
+          "alt": "Local preview of Jultomtes Quiz showing its Christmas-themed category selector.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/pokemon.webp",
+          "alt": "Local preview of Pokémon Application with Pikachu selected and its image, type, weight and height loaded from PokéAPI.",
+          "loaded": true,
+          "width": 608
+        }
+      ],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "language": "en",
+      "theme": "dark",
+      "images": [
+        {
+          "src": "/images/projects/ledgerapp.webp",
+          "alt": "LedgerApp public landing page with its bookkeeping workflow and labelled illustrative overview.",
+          "loaded": true,
+          "width": 962
+        },
+        {
+          "src": "/images/projects/stayfinder.webp",
+          "alt": "StayFinder public homepage showing accommodation discovery, a destination search and featured stays.",
+          "loaded": true,
+          "width": 522
+        },
+        {
+          "src": "/images/projects/mini-ats.webp",
+          "alt": "Mini ATS public landing page introducing the recruitment workspace and an explicitly labelled example pipeline.",
+          "loaded": true,
+          "width": 522
+        },
+        {
+          "src": "/images/projects/plot-twist.webp",
+          "alt": "Plot Twist public homepage introducing local plant exchanges and map-based discovery.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/sole-search.webp",
+          "alt": "SOLE_SEARCH public storefront featuring a sneaker drop, catalogue navigation and countdown.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/eventera.webp",
+          "alt": "EVENTERA public homepage with event search, city selection and featured experiences.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/folio.webp",
+          "alt": "FOLIO public homepage showing the portfolio-builder concept and a labelled example portfolio.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/nordmark.webp",
+          "alt": "Nordmark public demo marketplace with catalogue search, categories and a clearly labelled demo-store banner.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/anastasiia.webp",
+          "alt": "Anastasiia public wellbeing website with a calm editorial layout and paths for individuals and businesses.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/dspwebb.webp",
+          "alt": "DSP public homepage introducing digital development, accounting and roofing services.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/bokforingsmatchen.webp",
+          "alt": "Bokföringsmatchen public comparison-demo homepage with agency discovery and a quote-guide entry point.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/nordblad.webp",
+          "alt": "Nordbladet public newspaper homepage with navigation to articles and categories.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/jobbportalen.webp",
+          "alt": "Jobbportalen public vacancies page with keyword search, a department filter and job listings.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/paskquiz.webp",
+          "alt": "Local preview of Påsk Quiz showing its Easter-themed category selector.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/jultomtesquiz.webp",
+          "alt": "Local preview of Jultomtes Quiz showing its Christmas-themed category selector.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/pokemon.webp",
+          "alt": "Local preview of Pokémon Application with Pikachu selected and its image, type, weight and height loaded from PokéAPI.",
+          "loaded": true,
+          "width": 608
+        }
+      ],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "language": "sv",
+      "theme": "light",
+      "images": [
+        {
+          "src": "/images/projects/ledgerapp.webp",
+          "alt": "LedgerApps publika startsida med bokföringsflödet och en tydligt märkt illustrativ översikt.",
+          "loaded": true,
+          "width": 962
+        },
+        {
+          "src": "/images/projects/stayfinder.webp",
+          "alt": "StayFinders publika startsida med boendesökning, destinationssök och utvalda boenden.",
+          "loaded": true,
+          "width": 522
+        },
+        {
+          "src": "/images/projects/mini-ats.webp",
+          "alt": "Mini ATS publika startsida som presenterar rekryteringsytan och en tydligt märkt exempelprocess för kandidater.",
+          "loaded": true,
+          "width": 522
+        },
+        {
+          "src": "/images/projects/plot-twist.webp",
+          "alt": "Plot Twists publika startsida som introducerar lokala växtbyten.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/sole-search.webp",
+          "alt": "SOLE_SEARCH publika butik med ett sneakersläpp, katalognavigering och nedräkning.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/eventera.webp",
+          "alt": "EVENTERAs publika startsida med eventsökning, stadsval och utvalda upplevelser.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/folio.webp",
+          "alt": "FOLIOs publika startsida som presenterar portfoliobyggaren och en märkt exempelportfolio.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/nordmark.webp",
+          "alt": "Nordmarks publika marknadsplatsdemo med katalogsökning, kategorier och en tydlig demobutiksskylt.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/anastasiia.webp",
+          "alt": "Anastasiias publika friskvårdswebbplats med lugn redaktionell form och ingångar för privatpersoner och företag.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/dspwebb.webp",
+          "alt": "DSP:s publika startsida som presenterar digital utveckling, redovisning och takarbeten.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/bokforingsmatchen.webp",
+          "alt": "Bokföringsmatchens publika jämförelsedemo med byråsökning och en ingång till offertguiden.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/nordblad.webp",
+          "alt": "Nordbladets publika tidningsstartsida med navigering till artiklar och kategorier.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/jobbportalen.webp",
+          "alt": "Jobbportalens publika sida med lediga tjänster, fritextsökning och avdelningsfilter.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/paskquiz.webp",
+          "alt": "Lokal förhandsvisning av Påsk Quiz med påsktema och kategorival.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/jultomtesquiz.webp",
+          "alt": "Lokal förhandsvisning av Jultomtes Quiz med jultema och kategorival.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/pokemon.webp",
+          "alt": "Lokal förhandsvisning av Pokémon Application med Pikachu vald och bild, typ, vikt och längd hämtade från PokéAPI.",
+          "loaded": true,
+          "width": 608
+        }
+      ],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "language": "sv",
+      "theme": "dark",
+      "images": [
+        {
+          "src": "/images/projects/ledgerapp.webp",
+          "alt": "LedgerApps publika startsida med bokföringsflödet och en tydligt märkt illustrativ översikt.",
+          "loaded": true,
+          "width": 962
+        },
+        {
+          "src": "/images/projects/stayfinder.webp",
+          "alt": "StayFinders publika startsida med boendesökning, destinationssök och utvalda boenden.",
+          "loaded": true,
+          "width": 522
+        },
+        {
+          "src": "/images/projects/mini-ats.webp",
+          "alt": "Mini ATS publika startsida som presenterar rekryteringsytan och en tydligt märkt exempelprocess för kandidater.",
+          "loaded": true,
+          "width": 522
+        },
+        {
+          "src": "/images/projects/plot-twist.webp",
+          "alt": "Plot Twists publika startsida som introducerar lokala växtbyten.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/sole-search.webp",
+          "alt": "SOLE_SEARCH publika butik med ett sneakersläpp, katalognavigering och nedräkning.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/eventera.webp",
+          "alt": "EVENTERAs publika startsida med eventsökning, stadsval och utvalda upplevelser.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/folio.webp",
+          "alt": "FOLIOs publika startsida som presenterar portfoliobyggaren och en märkt exempelportfolio.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/nordmark.webp",
+          "alt": "Nordmarks publika marknadsplatsdemo med katalogsökning, kategorier och en tydlig demobutiksskylt.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/anastasiia.webp",
+          "alt": "Anastasiias publika friskvårdswebbplats med lugn redaktionell form och ingångar för privatpersoner och företag.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/dspwebb.webp",
+          "alt": "DSP:s publika startsida som presenterar digital utveckling, redovisning och takarbeten.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/bokforingsmatchen.webp",
+          "alt": "Bokföringsmatchens publika jämförelsedemo med byråsökning och en ingång till offertguiden.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/nordblad.webp",
+          "alt": "Nordbladets publika tidningsstartsida med navigering till artiklar och kategorier.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/jobbportalen.webp",
+          "alt": "Jobbportalens publika sida med lediga tjänster, fritextsökning och avdelningsfilter.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/paskquiz.webp",
+          "alt": "Lokal förhandsvisning av Påsk Quiz med påsktema och kategorival.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/jultomtesquiz.webp",
+          "alt": "Lokal förhandsvisning av Jultomtes Quiz med jultema och kategorival.",
+          "loaded": true,
+          "width": 608
+        },
+        {
+          "src": "/images/projects/pokemon.webp",
+          "alt": "Lokal förhandsvisning av Pokémon Application med Pikachu vald och bild, typ, vikt och längd hämtade från PokéAPI.",
+          "loaded": true,
+          "width": 608
+        }
+      ],
+      "violations": []
+    },
+    {
+      "width": 768,
+      "language": "en",
+      "theme": "light",
+      "images": [
+        {
+          "src": "/images/projects/ledgerapp.webp",
+          "alt": "LedgerApp public landing page with its bookkeeping workflow and labelled illustrative overview.",
+          "loaded": true,
+          "width": 546
+        },
+        {
+          "src": "/images/projects/stayfinder.webp",
+          "alt": "StayFinder public homepage showing accommodation discovery, a destination search and featured stays.",
+          "loaded": true,
+          "width": 290
+        },
+        {
+          "src": "/images/projects/mini-ats.webp",
+          "alt": "Mini ATS public landing page introducing the recruitment workspace and an explicitly labelled example pipeline.",
+          "loaded": true,
+          "width": 290
+        },
+        {
+          "src": "/images/projects/plot-twist.webp",
+          "alt": "Plot Twist public homepage introducing local plant exchanges and map-based discovery.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/sole-search.webp",
+          "alt": "SOLE_SEARCH public storefront featuring a sneaker drop, catalogue navigation and countdown.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/eventera.webp",
+          "alt": "EVENTERA public homepage with event search, city selection and featured experiences.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/folio.webp",
+          "alt": "FOLIO public homepage showing the portfolio-builder concept and a labelled example portfolio.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/nordmark.webp",
+          "alt": "Nordmark public demo marketplace with catalogue search, categories and a clearly labelled demo-store banner.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/anastasiia.webp",
+          "alt": "Anastasiia public wellbeing website with a calm editorial layout and paths for individuals and businesses.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/dspwebb.webp",
+          "alt": "DSP public homepage introducing digital development, accounting and roofing services.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/bokforingsmatchen.webp",
+          "alt": "Bokföringsmatchen public comparison-demo homepage with agency discovery and a quote-guide entry point.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/nordblad.webp",
+          "alt": "Nordbladet public newspaper homepage with navigation to articles and categories.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/jobbportalen.webp",
+          "alt": "Jobbportalen public vacancies page with keyword search, a department filter and job listings.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/paskquiz.webp",
+          "alt": "Local preview of Påsk Quiz showing its Easter-themed category selector.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/jultomtesquiz.webp",
+          "alt": "Local preview of Jultomtes Quiz showing its Christmas-themed category selector.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/pokemon.webp",
+          "alt": "Local preview of Pokémon Application with Pikachu selected and its image, type, weight and height loaded from PokéAPI.",
+          "loaded": true,
+          "width": 320
+        }
+      ],
+      "violations": []
+    },
+    {
+      "width": 768,
+      "language": "en",
+      "theme": "dark",
+      "images": [
+        {
+          "src": "/images/projects/ledgerapp.webp",
+          "alt": "LedgerApp public landing page with its bookkeeping workflow and labelled illustrative overview.",
+          "loaded": true,
+          "width": 546
+        },
+        {
+          "src": "/images/projects/stayfinder.webp",
+          "alt": "StayFinder public homepage showing accommodation discovery, a destination search and featured stays.",
+          "loaded": true,
+          "width": 290
+        },
+        {
+          "src": "/images/projects/mini-ats.webp",
+          "alt": "Mini ATS public landing page introducing the recruitment workspace and an explicitly labelled example pipeline.",
+          "loaded": true,
+          "width": 290
+        },
+        {
+          "src": "/images/projects/plot-twist.webp",
+          "alt": "Plot Twist public homepage introducing local plant exchanges and map-based discovery.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/sole-search.webp",
+          "alt": "SOLE_SEARCH public storefront featuring a sneaker drop, catalogue navigation and countdown.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/eventera.webp",
+          "alt": "EVENTERA public homepage with event search, city selection and featured experiences.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/folio.webp",
+          "alt": "FOLIO public homepage showing the portfolio-builder concept and a labelled example portfolio.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/nordmark.webp",
+          "alt": "Nordmark public demo marketplace with catalogue search, categories and a clearly labelled demo-store banner.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/anastasiia.webp",
+          "alt": "Anastasiia public wellbeing website with a calm editorial layout and paths for individuals and businesses.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/dspwebb.webp",
+          "alt": "DSP public homepage introducing digital development, accounting and roofing services.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/bokforingsmatchen.webp",
+          "alt": "Bokföringsmatchen public comparison-demo homepage with agency discovery and a quote-guide entry point.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/nordblad.webp",
+          "alt": "Nordbladet public newspaper homepage with navigation to articles and categories.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/jobbportalen.webp",
+          "alt": "Jobbportalen public vacancies page with keyword search, a department filter and job listings.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/paskquiz.webp",
+          "alt": "Local preview of Påsk Quiz showing its Easter-themed category selector.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/jultomtesquiz.webp",
+          "alt": "Local preview of Jultomtes Quiz showing its Christmas-themed category selector.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/pokemon.webp",
+          "alt": "Local preview of Pokémon Application with Pikachu selected and its image, type, weight and height loaded from PokéAPI.",
+          "loaded": true,
+          "width": 320
+        }
+      ],
+      "violations": []
+    },
+    {
+      "width": 768,
+      "language": "sv",
+      "theme": "light",
+      "images": [
+        {
+          "src": "/images/projects/ledgerapp.webp",
+          "alt": "LedgerApps publika startsida med bokföringsflödet och en tydligt märkt illustrativ översikt.",
+          "loaded": true,
+          "width": 546
+        },
+        {
+          "src": "/images/projects/stayfinder.webp",
+          "alt": "StayFinders publika startsida med boendesökning, destinationssök och utvalda boenden.",
+          "loaded": true,
+          "width": 290
+        },
+        {
+          "src": "/images/projects/mini-ats.webp",
+          "alt": "Mini ATS publika startsida som presenterar rekryteringsytan och en tydligt märkt exempelprocess för kandidater.",
+          "loaded": true,
+          "width": 290
+        },
+        {
+          "src": "/images/projects/plot-twist.webp",
+          "alt": "Plot Twists publika startsida som introducerar lokala växtbyten.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/sole-search.webp",
+          "alt": "SOLE_SEARCH publika butik med ett sneakersläpp, katalognavigering och nedräkning.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/eventera.webp",
+          "alt": "EVENTERAs publika startsida med eventsökning, stadsval och utvalda upplevelser.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/folio.webp",
+          "alt": "FOLIOs publika startsida som presenterar portfoliobyggaren och en märkt exempelportfolio.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/nordmark.webp",
+          "alt": "Nordmarks publika marknadsplatsdemo med katalogsökning, kategorier och en tydlig demobutiksskylt.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/anastasiia.webp",
+          "alt": "Anastasiias publika friskvårdswebbplats med lugn redaktionell form och ingångar för privatpersoner och företag.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/dspwebb.webp",
+          "alt": "DSP:s publika startsida som presenterar digital utveckling, redovisning och takarbeten.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/bokforingsmatchen.webp",
+          "alt": "Bokföringsmatchens publika jämförelsedemo med byråsökning och en ingång till offertguiden.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/nordblad.webp",
+          "alt": "Nordbladets publika tidningsstartsida med navigering till artiklar och kategorier.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/jobbportalen.webp",
+          "alt": "Jobbportalens publika sida med lediga tjänster, fritextsökning och avdelningsfilter.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/paskquiz.webp",
+          "alt": "Lokal förhandsvisning av Påsk Quiz med påsktema och kategorival.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/jultomtesquiz.webp",
+          "alt": "Lokal förhandsvisning av Jultomtes Quiz med jultema och kategorival.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/pokemon.webp",
+          "alt": "Lokal förhandsvisning av Pokémon Application med Pikachu vald och bild, typ, vikt och längd hämtade från PokéAPI.",
+          "loaded": true,
+          "width": 320
+        }
+      ],
+      "violations": []
+    },
+    {
+      "width": 768,
+      "language": "sv",
+      "theme": "dark",
+      "images": [
+        {
+          "src": "/images/projects/ledgerapp.webp",
+          "alt": "LedgerApps publika startsida med bokföringsflödet och en tydligt märkt illustrativ översikt.",
+          "loaded": true,
+          "width": 546
+        },
+        {
+          "src": "/images/projects/stayfinder.webp",
+          "alt": "StayFinders publika startsida med boendesökning, destinationssök och utvalda boenden.",
+          "loaded": true,
+          "width": 290
+        },
+        {
+          "src": "/images/projects/mini-ats.webp",
+          "alt": "Mini ATS publika startsida som presenterar rekryteringsytan och en tydligt märkt exempelprocess för kandidater.",
+          "loaded": true,
+          "width": 290
+        },
+        {
+          "src": "/images/projects/plot-twist.webp",
+          "alt": "Plot Twists publika startsida som introducerar lokala växtbyten.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/sole-search.webp",
+          "alt": "SOLE_SEARCH publika butik med ett sneakersläpp, katalognavigering och nedräkning.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/eventera.webp",
+          "alt": "EVENTERAs publika startsida med eventsökning, stadsval och utvalda upplevelser.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/folio.webp",
+          "alt": "FOLIOs publika startsida som presenterar portfoliobyggaren och en märkt exempelportfolio.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/nordmark.webp",
+          "alt": "Nordmarks publika marknadsplatsdemo med katalogsökning, kategorier och en tydlig demobutiksskylt.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/anastasiia.webp",
+          "alt": "Anastasiias publika friskvårdswebbplats med lugn redaktionell form och ingångar för privatpersoner och företag.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/dspwebb.webp",
+          "alt": "DSP:s publika startsida som presenterar digital utveckling, redovisning och takarbeten.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/bokforingsmatchen.webp",
+          "alt": "Bokföringsmatchens publika jämförelsedemo med byråsökning och en ingång till offertguiden.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/nordblad.webp",
+          "alt": "Nordbladets publika tidningsstartsida med navigering till artiklar och kategorier.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/jobbportalen.webp",
+          "alt": "Jobbportalens publika sida med lediga tjänster, fritextsökning och avdelningsfilter.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/paskquiz.webp",
+          "alt": "Lokal förhandsvisning av Påsk Quiz med påsktema och kategorival.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/jultomtesquiz.webp",
+          "alt": "Lokal förhandsvisning av Jultomtes Quiz med jultema och kategorival.",
+          "loaded": true,
+          "width": 320
+        },
+        {
+          "src": "/images/projects/pokemon.webp",
+          "alt": "Lokal förhandsvisning av Pokémon Application med Pikachu vald och bild, typ, vikt och längd hämtade från PokéAPI.",
+          "loaded": true,
+          "width": 320
+        }
+      ],
+      "violations": []
+    },
+    {
+      "width": 375,
+      "language": "en",
+      "theme": "light",
+      "images": [
+        {
+          "src": "/images/projects/ledgerapp.webp",
+          "alt": "LedgerApp public landing page with its bookkeeping workflow and labelled illustrative overview.",
+          "loaded": true,
+          "width": 289
+        },
+        {
+          "src": "/images/projects/stayfinder.webp",
+          "alt": "StayFinder public homepage showing accommodation discovery, a destination search and featured stays.",
+          "loaded": true,
+          "width": 289
+        },
+        {
+          "src": "/images/projects/mini-ats.webp",
+          "alt": "Mini ATS public landing page introducing the recruitment workspace and an explicitly labelled example pipeline.",
+          "loaded": true,
+          "width": 289
+        },
+        {
+          "src": "/images/projects/plot-twist.webp",
+          "alt": "Plot Twist public homepage introducing local plant exchanges and map-based discovery.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/sole-search.webp",
+          "alt": "SOLE_SEARCH public storefront featuring a sneaker drop, catalogue navigation and countdown.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/eventera.webp",
+          "alt": "EVENTERA public homepage with event search, city selection and featured experiences.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/folio.webp",
+          "alt": "FOLIO public homepage showing the portfolio-builder concept and a labelled example portfolio.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/nordmark.webp",
+          "alt": "Nordmark public demo marketplace with catalogue search, categories and a clearly labelled demo-store banner.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/anastasiia.webp",
+          "alt": "Anastasiia public wellbeing website with a calm editorial layout and paths for individuals and businesses.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/dspwebb.webp",
+          "alt": "DSP public homepage introducing digital development, accounting and roofing services.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/bokforingsmatchen.webp",
+          "alt": "Bokföringsmatchen public comparison-demo homepage with agency discovery and a quote-guide entry point.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/nordblad.webp",
+          "alt": "Nordbladet public newspaper homepage with navigation to articles and categories.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/jobbportalen.webp",
+          "alt": "Jobbportalen public vacancies page with keyword search, a department filter and job listings.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/paskquiz.webp",
+          "alt": "Local preview of Påsk Quiz showing its Easter-themed category selector.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/jultomtesquiz.webp",
+          "alt": "Local preview of Jultomtes Quiz showing its Christmas-themed category selector.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/pokemon.webp",
+          "alt": "Local preview of Pokémon Application with Pikachu selected and its image, type, weight and height loaded from PokéAPI.",
+          "loaded": true,
+          "width": 341
+        }
+      ],
+      "violations": []
+    },
+    {
+      "width": 375,
+      "language": "en",
+      "theme": "dark",
+      "images": [
+        {
+          "src": "/images/projects/ledgerapp.webp",
+          "alt": "LedgerApp public landing page with its bookkeeping workflow and labelled illustrative overview.",
+          "loaded": true,
+          "width": 289
+        },
+        {
+          "src": "/images/projects/stayfinder.webp",
+          "alt": "StayFinder public homepage showing accommodation discovery, a destination search and featured stays.",
+          "loaded": true,
+          "width": 289
+        },
+        {
+          "src": "/images/projects/mini-ats.webp",
+          "alt": "Mini ATS public landing page introducing the recruitment workspace and an explicitly labelled example pipeline.",
+          "loaded": true,
+          "width": 289
+        },
+        {
+          "src": "/images/projects/plot-twist.webp",
+          "alt": "Plot Twist public homepage introducing local plant exchanges and map-based discovery.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/sole-search.webp",
+          "alt": "SOLE_SEARCH public storefront featuring a sneaker drop, catalogue navigation and countdown.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/eventera.webp",
+          "alt": "EVENTERA public homepage with event search, city selection and featured experiences.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/folio.webp",
+          "alt": "FOLIO public homepage showing the portfolio-builder concept and a labelled example portfolio.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/nordmark.webp",
+          "alt": "Nordmark public demo marketplace with catalogue search, categories and a clearly labelled demo-store banner.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/anastasiia.webp",
+          "alt": "Anastasiia public wellbeing website with a calm editorial layout and paths for individuals and businesses.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/dspwebb.webp",
+          "alt": "DSP public homepage introducing digital development, accounting and roofing services.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/bokforingsmatchen.webp",
+          "alt": "Bokföringsmatchen public comparison-demo homepage with agency discovery and a quote-guide entry point.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/nordblad.webp",
+          "alt": "Nordbladet public newspaper homepage with navigation to articles and categories.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/jobbportalen.webp",
+          "alt": "Jobbportalen public vacancies page with keyword search, a department filter and job listings.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/paskquiz.webp",
+          "alt": "Local preview of Påsk Quiz showing its Easter-themed category selector.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/jultomtesquiz.webp",
+          "alt": "Local preview of Jultomtes Quiz showing its Christmas-themed category selector.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/pokemon.webp",
+          "alt": "Local preview of Pokémon Application with Pikachu selected and its image, type, weight and height loaded from PokéAPI.",
+          "loaded": true,
+          "width": 341
+        }
+      ],
+      "violations": []
+    },
+    {
+      "width": 375,
+      "language": "sv",
+      "theme": "light",
+      "images": [
+        {
+          "src": "/images/projects/ledgerapp.webp",
+          "alt": "LedgerApps publika startsida med bokföringsflödet och en tydligt märkt illustrativ översikt.",
+          "loaded": true,
+          "width": 289
+        },
+        {
+          "src": "/images/projects/stayfinder.webp",
+          "alt": "StayFinders publika startsida med boendesökning, destinationssök och utvalda boenden.",
+          "loaded": true,
+          "width": 289
+        },
+        {
+          "src": "/images/projects/mini-ats.webp",
+          "alt": "Mini ATS publika startsida som presenterar rekryteringsytan och en tydligt märkt exempelprocess för kandidater.",
+          "loaded": true,
+          "width": 289
+        },
+        {
+          "src": "/images/projects/plot-twist.webp",
+          "alt": "Plot Twists publika startsida som introducerar lokala växtbyten.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/sole-search.webp",
+          "alt": "SOLE_SEARCH publika butik med ett sneakersläpp, katalognavigering och nedräkning.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/eventera.webp",
+          "alt": "EVENTERAs publika startsida med eventsökning, stadsval och utvalda upplevelser.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/folio.webp",
+          "alt": "FOLIOs publika startsida som presenterar portfoliobyggaren och en märkt exempelportfolio.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/nordmark.webp",
+          "alt": "Nordmarks publika marknadsplatsdemo med katalogsökning, kategorier och en tydlig demobutiksskylt.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/anastasiia.webp",
+          "alt": "Anastasiias publika friskvårdswebbplats med lugn redaktionell form och ingångar för privatpersoner och företag.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/dspwebb.webp",
+          "alt": "DSP:s publika startsida som presenterar digital utveckling, redovisning och takarbeten.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/bokforingsmatchen.webp",
+          "alt": "Bokföringsmatchens publika jämförelsedemo med byråsökning och en ingång till offertguiden.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/nordblad.webp",
+          "alt": "Nordbladets publika tidningsstartsida med navigering till artiklar och kategorier.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/jobbportalen.webp",
+          "alt": "Jobbportalens publika sida med lediga tjänster, fritextsökning och avdelningsfilter.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/paskquiz.webp",
+          "alt": "Lokal förhandsvisning av Påsk Quiz med påsktema och kategorival.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/jultomtesquiz.webp",
+          "alt": "Lokal förhandsvisning av Jultomtes Quiz med jultema och kategorival.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/pokemon.webp",
+          "alt": "Lokal förhandsvisning av Pokémon Application med Pikachu vald och bild, typ, vikt och längd hämtade från PokéAPI.",
+          "loaded": true,
+          "width": 341
+        }
+      ],
+      "violations": []
+    },
+    {
+      "width": 375,
+      "language": "sv",
+      "theme": "dark",
+      "images": [
+        {
+          "src": "/images/projects/ledgerapp.webp",
+          "alt": "LedgerApps publika startsida med bokföringsflödet och en tydligt märkt illustrativ översikt.",
+          "loaded": true,
+          "width": 289
+        },
+        {
+          "src": "/images/projects/stayfinder.webp",
+          "alt": "StayFinders publika startsida med boendesökning, destinationssök och utvalda boenden.",
+          "loaded": true,
+          "width": 289
+        },
+        {
+          "src": "/images/projects/mini-ats.webp",
+          "alt": "Mini ATS publika startsida som presenterar rekryteringsytan och en tydligt märkt exempelprocess för kandidater.",
+          "loaded": true,
+          "width": 289
+        },
+        {
+          "src": "/images/projects/plot-twist.webp",
+          "alt": "Plot Twists publika startsida som introducerar lokala växtbyten.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/sole-search.webp",
+          "alt": "SOLE_SEARCH publika butik med ett sneakersläpp, katalognavigering och nedräkning.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/eventera.webp",
+          "alt": "EVENTERAs publika startsida med eventsökning, stadsval och utvalda upplevelser.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/folio.webp",
+          "alt": "FOLIOs publika startsida som presenterar portfoliobyggaren och en märkt exempelportfolio.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/nordmark.webp",
+          "alt": "Nordmarks publika marknadsplatsdemo med katalogsökning, kategorier och en tydlig demobutiksskylt.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/anastasiia.webp",
+          "alt": "Anastasiias publika friskvårdswebbplats med lugn redaktionell form och ingångar för privatpersoner och företag.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/dspwebb.webp",
+          "alt": "DSP:s publika startsida som presenterar digital utveckling, redovisning och takarbeten.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/bokforingsmatchen.webp",
+          "alt": "Bokföringsmatchens publika jämförelsedemo med byråsökning och en ingång till offertguiden.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/nordblad.webp",
+          "alt": "Nordbladets publika tidningsstartsida med navigering till artiklar och kategorier.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/jobbportalen.webp",
+          "alt": "Jobbportalens publika sida med lediga tjänster, fritextsökning och avdelningsfilter.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/paskquiz.webp",
+          "alt": "Lokal förhandsvisning av Påsk Quiz med påsktema och kategorival.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/jultomtesquiz.webp",
+          "alt": "Lokal förhandsvisning av Jultomtes Quiz med jultema och kategorival.",
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "src": "/images/projects/pokemon.webp",
+          "alt": "Lokal förhandsvisning av Pokémon Application med Pikachu vald och bild, typ, vikt och längd hämtade från PokéAPI.",
+          "loaded": true,
+          "width": 341
+        }
+      ],
+      "violations": []
+    }
+  ],
+  "errors": []
+}

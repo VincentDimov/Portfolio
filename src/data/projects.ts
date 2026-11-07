@@ -9,6 +9,7 @@ export type Project = {
   sourceVisibility: 'public' | 'private'
   liveUrl?: string
   image?: string
+  imageKind?: 'landing' | 'local'
   imageAlt?: string
   accent: 'lavender' | 'sky' | 'sand' | 'mint'
   flow: [string, string, string]
@@ -186,7 +187,9 @@ export const projects: Project[] = [
     summary: 'A consultation website with service presentation and a clear path to making an enquiry.',
     technologies: ['Next.js', 'TypeScript', 'React'],
     githubUrl: 'https://github.com/VincentDimov/anastasiia', sourceVisibility: 'private',
-    liveUrl: 'https://anastasiia-friskvard.vercel.app/', accent: 'sand', flow: ['Services', 'Information', 'Enquiry'],
+    liveUrl: 'https://anastasiia-friskvard.vercel.app/', image: '/images/projects/anastasiia.webp',
+    imageAlt: 'Anastasiia public wellbeing website with a calm editorial layout and paths for individuals and businesses.',
+    accent: 'sand', flow: ['Services', 'Information', 'Enquiry'],
     context: 'Website project',
     purpose: 'A service website where visitors can understand an offer, explore supporting content and find a suitable contact path. The implementation brings structured page content and responsive presentation together in Next.js.',
     features: [
@@ -201,7 +204,9 @@ export const projects: Project[] = [
     summary: 'A bilingual business website with dedicated pages for digital services, accounting and roofing.',
     technologies: ['Next.js', 'TypeScript', 'React'],
     githubUrl: 'https://github.com/VincentDimov/DSPWEBB', sourceVisibility: 'private',
-    liveUrl: 'https://www.dspab.se/', accent: 'sky', flow: ['Services', 'Business needs', 'Contact'],
+    liveUrl: 'https://www.dspab.se/', image: '/images/projects/dspwebb.webp',
+    imageAlt: 'DSP public homepage introducing digital development, accounting and roofing services.',
+    accent: 'sky', flow: ['Services', 'Business needs', 'Contact'],
     context: 'Business website project',
     purpose: 'DSP brings digital services, accounting and roofing together under a shared identity while giving each service area its own content and contact path. Swedish and English are handled through explicit language routes.',
     features: [
@@ -216,7 +221,9 @@ export const projects: Project[] = [
     summary: 'A bilingual comparison demo for accounting agencies, with filters, a quote wizard and indicative calculators.',
     technologies: ['Next.js', 'TypeScript', 'React'],
     githubUrl: 'https://github.com/VincentDimov/bokforingsmatchen', sourceVisibility: 'public',
-    liveUrl: 'https://bokforingsmatchen.vercel.app/', accent: 'lavender', flow: ['Compare', 'Estimate', 'Quote wizard'],
+    liveUrl: 'https://bokforingsmatchen.vercel.app/', image: '/images/projects/bokforingsmatchen.webp',
+    imageAlt: 'Bokföringsmatchen public comparison-demo homepage with agency discovery and a quote-guide entry point.',
+    accent: 'lavender', flow: ['Compare', 'Estimate', 'Quote wizard'],
     context: 'Comparison prototype',
     purpose: 'A comparison experience for businesses looking for accounting support. The prototype connects agency discovery with information, indicative calculations and a guided quote flow in Swedish and English.',
     features: [
@@ -232,7 +239,9 @@ export const projects: Project[] = [
     summary: 'A headless-CMS newspaper with article pages, categories and author profiles powered by Storyblok.',
     technologies: ['Next.js', 'JavaScript', 'Storyblok', 'Tailwind CSS'],
     githubUrl: 'https://github.com/VincentDimov/Nordblad', sourceVisibility: 'public',
-    liveUrl: 'https://nordblad.vercel.app/', accent: 'sand', flow: ['Storyblok', 'Articles', 'Readers'],
+    liveUrl: 'https://nordblad.vercel.app/', image: '/images/projects/nordblad.webp',
+    imageAlt: 'Nordbladet public newspaper homepage with navigation to articles and categories.',
+    accent: 'sand', flow: ['Storyblok', 'Articles', 'Readers'],
     context: 'Educational CMS project',
     purpose: 'An editorial site that separates content management from presentation. Storyblok supplies articles, categories, author information and page blocks, while Next.js renders the reader-facing experience.',
     features: [
@@ -247,7 +256,9 @@ export const projects: Project[] = [
     summary: 'A CMS-driven job portal with job detail pages, text search and department filtering.',
     technologies: ['Next.js', 'TypeScript', 'Storyblok'],
     githubUrl: 'https://github.com/VincentDimov/jobbportalenCMS', sourceVisibility: 'public',
-    liveUrl: 'https://jobbportalen-mauve.vercel.app/jobs', accent: 'sky', flow: ['CMS content', 'Search', 'Job details'],
+    liveUrl: 'https://jobbportalen-mauve.vercel.app/jobs', image: '/images/projects/jobbportalen.webp',
+    imageAlt: 'Jobbportalen public vacancies page with keyword search, a department filter and job listings.',
+    accent: 'sky', flow: ['CMS content', 'Search', 'Job details'],
     context: 'CMS project',
     purpose: 'A job portal where editorial control over vacancies sits in Storyblok and the public browsing experience runs in Next.js. The project connects structured job content with searchable, filterable listings and dedicated detail pages.',
     features: [
@@ -262,6 +273,8 @@ export const projects: Project[] = [
     summary: 'An Easter-themed, category-based quiz with timed questions and browser interactions.',
     technologies: ['JavaScript', 'HTML', 'CSS'],
     githubUrl: 'https://github.com/VincentDimov/PaskQuiz', sourceVisibility: 'private',
+    image: '/images/projects/paskquiz.webp', imageKind: 'local',
+    imageAlt: 'Local preview of Påsk Quiz showing its Easter-themed category selector.',
     accent: 'sand', flow: ['Pick category', 'Answer', 'Score'],
     context: 'Interactive web project',
     purpose: 'An Easter-themed quiz built with HTML, CSS and JavaScript. The project explores how category selection, timed questions, answer feedback and a results view fit into a browser-based game loop.',
@@ -277,6 +290,8 @@ export const projects: Project[] = [
     summary: 'A Christmas-themed quiz combining category selection, a countdown and question handling in JavaScript.',
     technologies: ['JavaScript', 'HTML', 'CSS'],
     githubUrl: 'https://github.com/VincentDimov/JultomtesQuiz', sourceVisibility: 'private',
+    image: '/images/projects/jultomtesquiz.webp', imageKind: 'local',
+    imageAlt: 'Local preview of Jultomtes Quiz showing its Christmas-themed category selector.',
     accent: 'mint', flow: ['Pick category', 'Answer', 'Score'],
     context: 'Interactive web project',
     purpose: 'A Christmas-themed quiz exploring interactive game states without a frontend framework. JavaScript coordinates question selection, timing, score updates and the transition from a running round to its result.',
@@ -292,6 +307,8 @@ export const projects: Project[] = [
     summary: 'A React interface for exploring the original 151 Pokémon, with details fetched from PokéAPI.',
     technologies: ['React', 'JavaScript', 'Vite', 'PokéAPI'],
     githubUrl: 'https://github.com/VincentDimov/PokemonApplicationAPI', sourceVisibility: 'public',
+    image: '/images/projects/pokemon.webp', imageKind: 'local',
+    imageAlt: 'Local preview of Pokémon Application with Pikachu selected and its image, type, weight and height loaded from PokéAPI.',
     accent: 'lavender', flow: ['PokéAPI', 'Browse', 'Details'],
     context: 'API integration project',
     purpose: 'A React learning project that turns remote PokéAPI data into an interactive browsing interface. It separates the selection flow from the details of an individual Pokémon and uses a public API rather than a custom backend.',

@@ -79,7 +79,7 @@ Project descriptions were checked against repository READMEs, direct dependencie
 - [Primary project evidence](docs/project-evidence-primary.md)
 - [Additional project evidence](docs/project-evidence-more.md)
 
-Private repositories are labelled as private. Small exercises remain small exercises; no customer counts, commercial outcomes, employment history or experience years are inferred from repository metadata. Screenshots show public landing pages, not authenticated workspaces. Projects without screenshots use labelled concept diagrams. The five additions and their implementation evidence are documented in [the project evidence notes](docs/project-evidence-2026-11-07.md).
+Private repositories are labelled as private. Small exercises remain small exercises; no customer counts, commercial outcomes, employment history or experience years are inferred from repository metadata. All sixteen projects have optimised WebP screenshots. Thirteen show public websites; the three interactive exercises show locally running interfaces and are labelled as local previews. Each image has English and Swedish alternative text. The five additions and their implementation evidence are documented in [the project evidence notes](docs/project-evidence-2026-11-07.md).
 
 ## GitHub data
 
