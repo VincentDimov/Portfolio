@@ -3,6 +3,7 @@ import { motion, useReducedMotion } from 'framer-motion'
 import type { Project } from '../../data/projects'
 import { Badge } from '../ui/Badge'
 import { ProjectVisual } from './ProjectVisual'
+import { ProjectDetails } from './ProjectDetails'
 import { useLanguage } from '../../lib/locale'
 
 type ProjectCardProps = {
@@ -31,6 +32,7 @@ export const ProjectCard = ({ project, index }: ProjectCardProps) => {
           <h3>{project.name}</h3>
           <p>{project.summary}</p>
         </div>
+        <ProjectDetails project={project} />
         <div className="project-card__footer">
           <div className="project-card__tags">
             {project.technologies.map((technology) => <Badge key={technology}>{technology}</Badge>)}

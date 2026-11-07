@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-07",
+  "story": "Browse sixteen bilingual projects, filter the archive, expand descriptions and follow source/demo links.",
+  "layouts": [
+    {
+      "width": 1440,
+      "language": "en",
+      "theme": "light",
+      "dimensions": {
+        "viewport": 1440,
+        "scrollWidth": 1440
+      },
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "language": "en",
+      "theme": "dark",
+      "dimensions": {
+        "viewport": 1440,
+        "scrollWidth": 1440
+      },
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "language": "sv",
+      "theme": "light",
+      "dimensions": {
+        "viewport": 1440,
+        "scrollWidth": 1440
+      },
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "language": "sv",
+      "theme": "dark",
+      "dimensions": {
+        "viewport": 1440,
+        "scrollWidth": 1440
+      },
+      "violations": []
+    },
+    {
+      "width": 768,
+      "language": "en",
+      "theme": "light",
+      "dimensions": {
+        "viewport": 768,
+        "scrollWidth": 768
+      },
+      "violations": []
+    },
+    {
+      "width": 768,
+      "language": "en",
+      "theme": "dark",
+      "dimensions": {
+        "viewport": 768,
+        "scrollWidth": 768
+      },
+      "violations": []
+    },
+    {
+      "width": 768,
+      "language": "sv",
+      "theme": "light",
+      "dimensions": {
+        "viewport": 768,
+        "scrollWidth": 768
+      },
+      "violations": []
+    },
+    {
+      "width": 768,
+      "language": "sv",
+      "theme": "dark",
+      "dimensions": {
+        "viewport": 768,
+        "scrollWidth": 768
+      },
+      "violations": []
+    },
+    {
+      "width": 375,
+      "language": "en",
+      "theme": "light",
+      "dimensions": {
+        "viewport": 375,
+        "scrollWidth": 375
+      },
+      "violations": []
+    },
+    {
+      "width": 375,
+      "language": "en",
+      "theme": "dark",
+      "dimensions": {
+        "viewport": 375,
+        "scrollWidth": 375
+      },
+      "violations": []
+    },
+    {
+      "width": 375,
+      "language": "sv",
+      "theme": "light",
+      "dimensions": {
+        "viewport": 375,
+        "scrollWidth": 375
+      },
+      "violations": []
+    },
+    {
+      "width": 375,
+      "language": "sv",
+      "theme": "dark",
+      "dimensions": {
+        "viewport": 375,
+        "scrollWidth": 375
+      },
+      "violations": []
+    }
+  ],
+  "errors": []
+}

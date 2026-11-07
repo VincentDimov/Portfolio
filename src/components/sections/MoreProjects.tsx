@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { ArrowUpRight, ChevronDown, Github, LockKeyhole } from 'lucide-react'
 import { moreProjects, type ProjectCategory } from '../../data/projects'
 import { ProjectVisual } from '../projects/ProjectVisual'
+import { ProjectDetails } from '../projects/ProjectDetails'
 import { Badge } from '../ui/Badge'
 import { Button } from '../ui/Button'
 import { Container } from '../ui/Container'
@@ -10,9 +11,9 @@ import { SectionHeading } from '../ui/SectionHeading'
 import { useLanguage } from '../../lib/locale'
 import { localizeProject } from '../../lib/content'
 
-type ProjectFilter = 'All' | Exclude<ProjectCategory, 'Fullstack'>
-const filters: ProjectFilter[] = ['All', 'Websites & CMS', 'Interactive']
-const initialProjectCount = 4
+type ProjectFilter = 'All' | ProjectCategory
+const filters: ProjectFilter[] = ['All', 'Fullstack', 'Websites & CMS', 'Interactive']
+const initialProjectCount = 6
 
 export const MoreProjects = () => {
   const { copy, language } = useLanguage()
@@ -60,6 +61,7 @@ export const MoreProjects = () => {
                   <span className="eyebrow">{copy.categories[project.category]}</span>
                   <h3 id={`project-${project.slug}-title`}>{project.name}</h3>
                   <p>{project.summary}</p>
+                  <ProjectDetails project={project} />
                   <div className="compact-project__tags" aria-label={`${project.name}: ${copy.case.technologies}`}>
                     {project.technologies.map(technology => <Badge key={technology}>{technology}</Badge>)}
                   </div>

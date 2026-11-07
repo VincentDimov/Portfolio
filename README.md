@@ -11,7 +11,7 @@ A personal fullstack developer portfolio connecting real projects, their technic
 ## The experience
 
 - Three featured projects: **LedgerApp**, **StayFinder** and **Mini ATS**, each with a dedicated case study.
-- Eight additional projects with category filters and an expandable overview.
+- Thirteen additional projects with category filters, live links and expandable descriptions of their purpose and features, including Plot Twist, SOLE_SEARCH, EVENTERA, FOLIO and Nordmark.
 - Real GitHub contributions for the latest twelve months, with keyboard and touch support.
 - Technology cards connected to the projects where the technologies are used.
 - A concise About / Approach section with a business perspective and current education.
@@ -68,7 +68,7 @@ docs/                        Verification evidence, data-source notes and screen
 | --- | --- |
 | Name, title and background | `src/data/profile.ts` |
 | Email and social links | `src/data/socials.ts` |
-| All eleven projects and case studies | `src/data/projects.ts` |
+| All sixteen projects and case studies | `src/data/projects.ts` |
 | Technology areas | `src/data/skills.ts` |
 | English and Swedish interface text | `src/data/copy.ts` |
 | Swedish projects and skills | `src/data/projects.sv.ts`, `src/data/skills.sv.ts` |
@@ -79,7 +79,7 @@ Project descriptions were checked against repository READMEs, direct dependencie
 - [Primary project evidence](docs/project-evidence-primary.md)
 - [Additional project evidence](docs/project-evidence-more.md)
 
-Private repositories are labelled as private. Small exercises remain small exercises; no customer counts, commercial outcomes, employment history or experience years are inferred from repository metadata. The selected screenshots show public landing pages, not authenticated workspaces. Other projects use labelled concept diagrams.
+Private repositories are labelled as private. Small exercises remain small exercises; no customer counts, commercial outcomes, employment history or experience years are inferred from repository metadata. Screenshots show public landing pages, not authenticated workspaces. Projects without screenshots use labelled concept diagrams. The five additions and their implementation evidence are documented in [the project evidence notes](docs/project-evidence-2026-11-07.md).
 
 ## GitHub data
 
